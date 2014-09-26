@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC6DEAFF1970658D00B94DD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */; };
+		FC6DEB091970658D00B94DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB071970658D00B94DD0 /* InfoPlist.strings */; };
+		FC6DEB0B1970658D00B94DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DEB0A1970658D00B94DD0 /* main.m */; };
+		FC6DEB0F1970658D00B94DD0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB0D1970658D00B94DD0 /* Credits.rtf */; };
+		FC6DEB121970658D00B94DD0 /* WTFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DEB111970658D00B94DD0 /* WTFAppDelegate.m */; };
+		FC6DEB151970658D00B94DD0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB131970658D00B94DD0 /* MainMenu.xib */; };
+		FC6DEB171970658D00B94DD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB161970658D00B94DD0 /* Images.xcassets */; };
+		FC6DEB1E1970658D00B94DD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEB1D1970658D00B94DD0 /* XCTest.framework */; };
+		FC6DEB1F1970658D00B94DD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */; };
+		FC6DEB271970658D00B94DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB251970658D00B94DD0 /* InfoPlist.strings */; };
+		FC6DEB291970658D00B94DD0 /* Internet_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DEB281970658D00B94DD0 /* Internet_Tests.m */; };
+		FC6DEB37197067F100B94DD0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEB36197067F100B94DD0 /* AVFoundation.framework */; };
+		FC6DEB3D197072E300B94DD0 /* wtf-internet.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB3C197072E300B94DD0 /* wtf-internet.m4a */; };
+		FC6DEB3F197072E900B94DD0 /* eat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB3E197072E900B94DD0 /* eat.m4a */; };
+		FC6DEB41197072F700B94DD0 /* lickers.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB40197072F700B94DD0 /* lickers.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6DEB201970658D00B94DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6DEAF31970658D00B94DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6DEAFA1970658D00B94DD0;
+			remoteInfo = "Internet?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC6DEAFB1970658D00B94DD0 /* Internet?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Internet?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FC6DEB011970658D00B94DD0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FC6DEB021970658D00B94DD0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC6DEB031970658D00B94DD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC6DEB061970658D00B94DD0 /* Internet?-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Internet?-Info.plist"; sourceTree = "<group>"; };
+		FC6DEB081970658D00B94DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC6DEB0A1970658D00B94DD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC6DEB0C1970658D00B94DD0 /* Internet?-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Internet?-Prefix.pch"; sourceTree = "<group>"; };
+		FC6DEB0E1970658D00B94DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FC6DEB101970658D00B94DD0 /* WTFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTFAppDelegate.h; sourceTree = "<group>"; };
+		FC6DEB111970658D00B94DD0 /* WTFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTFAppDelegate.m; sourceTree = "<group>"; };
+		FC6DEB141970658D00B94DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FC6DEB161970658D00B94DD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC6DEB1C1970658D00B94DD0 /* Internet?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Internet?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DEB1D1970658D00B94DD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC6DEB241970658D00B94DD0 /* Internet?Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Internet?Tests-Info.plist"; sourceTree = "<group>"; };
+		FC6DEB261970658D00B94DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC6DEB281970658D00B94DD0 /* Internet_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Internet_Tests.m; sourceTree = "<group>"; };
+		FC6DEB34197067CC00B94DD0 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		FC6DEB36197067F100B94DD0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FC6DEB3C197072E300B94DD0 /* wtf-internet.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wtf-internet.m4a"; sourceTree = "<group>"; };
+		FC6DEB3E197072E900B94DD0 /* eat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = eat.m4a; sourceTree = "<group>"; };
+		FC6DEB40197072F700B94DD0 /* lickers.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = lickers.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6DEAF81970658D00B94DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DEB37197067F100B94DD0 /* AVFoundation.framework in Frameworks */,
+				FC6DEAFF1970658D00B94DD0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DEB191970658D00B94DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DEB1F1970658D00B94DD0 /* Cocoa.framework in Frameworks */,
+				FC6DEB1E1970658D00B94DD0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6DEAF21970658D00B94DD0 = {
+			isa = PBXGroup;
+			children = (
+				FC6DEB041970658D00B94DD0 /* Internet? */,
+				FC6DEB221970658D00B94DD0 /* Internet?Tests */,
+				FC6DEAFD1970658D00B94DD0 /* Frameworks */,
+				FC6DEAFC1970658D00B94DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6DEAFC1970658D00B94DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DEAFB1970658D00B94DD0 /* Internet?.app */,
+				FC6DEB1C1970658D00B94DD0 /* Internet?Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6DEAFD1970658D00B94DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DEB36197067F100B94DD0 /* AVFoundation.framework */,
+				FC6DEB34197067CC00B94DD0 /* AVKit.framework */,
+				FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */,
+				FC6DEB1D1970658D00B94DD0 /* XCTest.framework */,
+				FC6DEB001970658D00B94DD0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC6DEB001970658D00B94DD0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DEB011970658D00B94DD0 /* AppKit.framework */,
+				FC6DEB021970658D00B94DD0 /* CoreData.framework */,
+				FC6DEB031970658D00B94DD0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FC6DEB041970658D00B94DD0 /* Internet? */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DEB101970658D00B94DD0 /* WTFAppDelegate.h */,
+				FC6DEB111970658D00B94DD0 /* WTFAppDelegate.m */,
+				FC6DEB131970658D00B94DD0 /* MainMenu.xib */,
+				FC6DEB161970658D00B94DD0 /* Images.xcassets */,
+				FC6DEB051970658D00B94DD0 /* Supporting Files */,
+			);
+			path = "Internet?";
+			sourceTree = "<group>";
+		};
+		FC6DEB051970658D00B94DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DEB40197072F700B94DD0 /* lickers.m4a */,
+				FC6DEB3E197072E900B94DD0 /* eat.m4a */,
+				FC6DEB3C197072E300B94DD0 /* wtf-internet.m4a */,
+				FC6DEB061970658D00B94DD0 /* Internet?-Info.plist */,
+				FC6DEB071970658D00B94DD0 /* InfoPlist.strings */,
+				FC6DEB0A1970658D00B94DD0 /* main.m */,
+				FC6DEB0C1970658D00B94DD0 /* Internet?-Prefix.pch */,
+				FC6DEB0D1970658D00B94DD0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC6DEB221970658D00B94DD0 /* Internet?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DEB281970658D00B94DD0 /* Internet_Tests.m */,
+				FC6DEB231970658D00B94DD0 /* Supporting Files */,
+			);
+			path = "Internet?Tests";
+			sourceTree = "<group>";
+		};
+		FC6DEB231970658D00B94DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DEB241970658D00B94DD0 /* Internet?Tests-Info.plist */,
+				FC6DEB251970658D00B94DD0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6DEAFA1970658D00B94DD0 /* Internet? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DEB2C1970658D00B94DD0 /* Build configuration list for PBXNativeTarget "Internet?" */;
+			buildPhases = (
+				FC6DEAF71970658D00B94DD0 /* Sources */,
+				FC6DEAF81970658D00B94DD0 /* Frameworks */,
+				FC6DEAF91970658D00B94DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Internet?";
+			productName = "Internet?";
+			productReference = FC6DEAFB1970658D00B94DD0 /* Internet?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC6DEB1B1970658D00B94DD0 /* Internet?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DEB2F1970658D00B94DD0 /* Build configuration list for PBXNativeTarget "Internet?Tests" */;
+			buildPhases = (
+				FC6DEB181970658D00B94DD0 /* Sources */,
+				FC6DEB191970658D00B94DD0 /* Frameworks */,
+				FC6DEB1A1970658D00B94DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6DEB211970658D00B94DD0 /* PBXTargetDependency */,
+			);
+			name = "Internet?Tests";
+			productName = "Internet?Tests";
+			productReference = FC6DEB1C1970658D00B94DD0 /* Internet?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6DEAF31970658D00B94DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WTF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Martin, Christopher (ETW)";
+				TargetAttributes = {
+					FC6DEB1B1970658D00B94DD0 = {
+						TestTargetID = FC6DEAFA1970658D00B94DD0;
+					};
+				};
+			};
+			buildConfigurationList = FC6DEAF61970658D00B94DD0 /* Build configuration list for PBXProject "Internet?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6DEAF21970658D00B94DD0;
+			productRefGroup = FC6DEAFC1970658D00B94DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6DEAFA1970658D00B94DD0 /* Internet? */,
+				FC6DEB1B1970658D00B94DD0 /* Internet?Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6DEAF91970658D00B94DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DEB3D197072E300B94DD0 /* wtf-internet.m4a in Resources */,
+				FC6DEB091970658D00B94DD0 /* InfoPlist.strings in Resources */,
+				FC6DEB171970658D00B94DD0 /* Images.xcassets in Resources */,
+				FC6DEB3F197072E900B94DD0 /* eat.m4a in Resources */,
+				FC6DEB0F1970658D00B94DD0 /* Credits.rtf in Resources */,
+				FC6DEB41197072F700B94DD0 /* lickers.m4a in Resources */,
+				FC6DEB151970658D00B94DD0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DEB1A1970658D00B94DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DEB271970658D00B94DD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6DEAF71970658D00B94DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DEB121970658D00B94DD0 /* WTFAppDelegate.m in Sources */,
+				FC6DEB0B1970658D00B94DD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DEB181970658D00B94DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DEB291970658D00B94DD0 /* Internet_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC6DEB211970658D00B94DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6DEAFA1970658D00B94DD0 /* Internet? */;
+			targetProxy = FC6DEB201970658D00B94DD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC6DEB071970658D00B94DD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6DEB081970658D00B94DD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC6DEB0D1970658D00B94DD0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6DEB0E1970658D00B94DD0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FC6DEB131970658D00B94DD0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6DEB141970658D00B94DD0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FC6DEB251970658D00B94DD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6DEB261970658D00B94DD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6DEB2A1970658D00B94DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC6DEB2B1970658D00B94DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC6DEB2D1970658D00B94DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Internet?/Internet?-Prefix.pch";
+				INFOPLIST_FILE = "Internet?/Internet?-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC6DEB2E1970658D00B94DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Internet?/Internet?-Prefix.pch";
+				INFOPLIST_FILE = "Internet?/Internet?-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC6DEB301970658D00B94DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Internet?.app/Contents/MacOS/Internet?";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Internet?/Internet?-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Internet?Tests/Internet?Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC6DEB311970658D00B94DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Internet?.app/Contents/MacOS/Internet?";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Internet?/Internet?-Prefix.pch";
+				INFOPLIST_FILE = "Internet?Tests/Internet?Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6DEAF61970658D00B94DD0 /* Build configuration list for PBXProject "Internet?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DEB2A1970658D00B94DD0 /* Debug */,
+				FC6DEB2B1970658D00B94DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DEB2C1970658D00B94DD0 /* Build configuration list for PBXNativeTarget "Internet?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DEB2D1970658D00B94DD0 /* Debug */,
+				FC6DEB2E1970658D00B94DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DEB2F1970658D00B94DD0 /* Build configuration list for PBXNativeTarget "Internet?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DEB301970658D00B94DD0 /* Debug */,
+				FC6DEB311970658D00B94DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6DEAF31970658D00B94DD0 /* Project object */;
+}
