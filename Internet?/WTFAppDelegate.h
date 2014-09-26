@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+@class WTFMenubarController;
 
 @interface WTFAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+
+@property (nonatomic, strong) WTFMenubarController *menubarController;
 
 @end
