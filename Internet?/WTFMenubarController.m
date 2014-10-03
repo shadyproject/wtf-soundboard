@@ -21,12 +21,12 @@
         _statusItem.highlightMode = YES;
 
         NSMenu *menu = [[NSMenu alloc] init];
-        [[menu addItemWithTitle:@"Internet?" action:@selector(playInternet) keyEquivalent:@""] setTarget:self];
-        [[menu addItemWithTitle:@"You are the ones" action:@selector(playYouAre) keyEquivalent:@""] setTarget:self];
-        [[menu addItemWithTitle:@"Eat" action:@selector(playEat) keyEquivalent:@""] setTarget:self];
+        [[menu addItemWithTitle:@"Internet?" action:@selector(playInternet:) keyEquivalent:@""] setTarget:self];
+        [[menu addItemWithTitle:@"You are the ones" action:@selector(playYouAre:) keyEquivalent:@""] setTarget:self];
+        [[menu addItemWithTitle:@"Eat" action:@selector(playEat:) keyEquivalent:@""] setTarget:self];
         [menu addItem:[NSMenuItem separatorItem]];
-        [[menu addItemWithTitle:@"Window" action:@selector(openWindow) keyEquivalent:@""] setTarget:self];
-        [[menu addItemWithTitle:@"Quit" action:@selector(quit) keyEquivalent:@""] setTarget:self];
+        [[menu addItemWithTitle:@"Window" action:@selector(openWindow:) keyEquivalent:@""] setTarget:self];
+        [[menu addItemWithTitle:@"Quit" action:@selector(quit:) keyEquivalent:@""] setTarget:self];
 
         _statusItem.menu = menu;
     }
@@ -35,24 +35,24 @@
 }
 
 #pragma mark Menu Actions
-- (void)playInternet {
+- (void)playInternet:(id)sender {
     NSLog(@"Play the internet sound click here");
 }
 
-- (void)playYouAre {
+- (void)playYouAre:(id)sender {
     NSLog(@"Play you are the ones who are the ball lickers");
 }
 
-- (void)playEat {
+- (void)playEat:(id)sender {
     NSLog(@"Play the eat clip");
 }
 
-- (void)openWindow {
+- (void)openWindow:(id)sender {
     NSLog(@"Show the window with the buttons");
 }
 
-- (void)quit {
-    [[NSApplication sharedApplication] terminate:self];
+- (void)quit:(id)sender {
+    [[NSApplication sharedApplication] terminate:sender];
 }
 
 - (void)dealloc {
