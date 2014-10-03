@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC57F59D19D5D08C00E2AB1E /* WTFMenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F59C19D5D08C00E2AB1E /* WTFMenubarController.m */; };
+		2D3C311319DF5A9E003FF769 /* eat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C311019DF5A9E003FF769 /* eat.m4a */; };
+		2D3C311419DF5A9E003FF769 /* lickers.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C311119DF5A9E003FF769 /* lickers.m4a */; };
+		2D3C311519DF5A9E003FF769 /* wtf-internet.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C311219DF5A9E003FF769 /* wtf-internet.m4a */; };
+		2D3C311819DF5AAE003FF769 /* WTFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C311719DF5AAE003FF769 /* WTFAppDelegate.m */; };
+		2D3C311B19DF5AB6003FF769 /* WTFMenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C311A19DF5AB6003FF769 /* WTFMenubarController.m */; };
 		FC6DEAFF1970658D00B94DD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */; };
 		FC6DEB091970658D00B94DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB071970658D00B94DD0 /* InfoPlist.strings */; };
 		FC6DEB0B1970658D00B94DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DEB0A1970658D00B94DD0 /* main.m */; };
 		FC6DEB0F1970658D00B94DD0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB0D1970658D00B94DD0 /* Credits.rtf */; };
-		FC6DEB121970658D00B94DD0 /* WTFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DEB111970658D00B94DD0 /* WTFAppDelegate.m */; };
 		FC6DEB151970658D00B94DD0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB131970658D00B94DD0 /* MainMenu.xib */; };
 		FC6DEB171970658D00B94DD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB161970658D00B94DD0 /* Images.xcassets */; };
 		FC6DEB1E1970658D00B94DD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEB1D1970658D00B94DD0 /* XCTest.framework */; };
@@ -20,9 +23,6 @@
 		FC6DEB271970658D00B94DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB251970658D00B94DD0 /* InfoPlist.strings */; };
 		FC6DEB291970658D00B94DD0 /* Internet_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DEB281970658D00B94DD0 /* Internet_Tests.m */; };
 		FC6DEB37197067F100B94DD0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEB36197067F100B94DD0 /* AVFoundation.framework */; };
-		FC6DEB3D197072E300B94DD0 /* wtf-internet.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB3C197072E300B94DD0 /* wtf-internet.m4a */; };
-		FC6DEB3F197072E900B94DD0 /* eat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB3E197072E900B94DD0 /* eat.m4a */; };
-		FC6DEB41197072F700B94DD0 /* lickers.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB40197072F700B94DD0 /* lickers.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC57F59B19D5D08C00E2AB1E /* WTFMenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTFMenubarController.h; path = ../WTFMenubarController.h; sourceTree = "<group>"; };
-		FC57F59C19D5D08C00E2AB1E /* WTFMenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTFMenubarController.m; path = ../WTFMenubarController.m; sourceTree = "<group>"; };
+		2D3C311019DF5A9E003FF769 /* eat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = eat.m4a; sourceTree = "<group>"; };
+		2D3C311119DF5A9E003FF769 /* lickers.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = lickers.m4a; sourceTree = "<group>"; };
+		2D3C311219DF5A9E003FF769 /* wtf-internet.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wtf-internet.m4a"; sourceTree = "<group>"; };
+		2D3C311619DF5AAE003FF769 /* WTFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTFAppDelegate.h; sourceTree = "<group>"; };
+		2D3C311719DF5AAE003FF769 /* WTFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTFAppDelegate.m; sourceTree = "<group>"; };
+		2D3C311919DF5AB6003FF769 /* WTFMenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTFMenubarController.h; sourceTree = "<group>"; };
+		2D3C311A19DF5AB6003FF769 /* WTFMenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTFMenubarController.m; sourceTree = "<group>"; };
 		FC6DEAFB1970658D00B94DD0 /* Internet?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Internet?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FC6DEB011970658D00B94DD0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -48,8 +53,6 @@
 		FC6DEB0A1970658D00B94DD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC6DEB0C1970658D00B94DD0 /* Internet?-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Internet?-Prefix.pch"; sourceTree = "<group>"; };
 		FC6DEB0E1970658D00B94DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		FC6DEB101970658D00B94DD0 /* WTFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WTFAppDelegate.h; path = ../WTFAppDelegate.h; sourceTree = "<group>"; };
-		FC6DEB111970658D00B94DD0 /* WTFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WTFAppDelegate.m; path = ../WTFAppDelegate.m; sourceTree = "<group>"; };
 		FC6DEB141970658D00B94DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FC6DEB161970658D00B94DD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC6DEB1C1970658D00B94DD0 /* Internet?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Internet?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,9 +62,6 @@
 		FC6DEB281970658D00B94DD0 /* Internet_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Internet_Tests.m; sourceTree = "<group>"; };
 		FC6DEB34197067CC00B94DD0 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		FC6DEB36197067F100B94DD0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		FC6DEB3C197072E300B94DD0 /* wtf-internet.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "wtf-internet.m4a"; path = "../wtf-internet.m4a"; sourceTree = "<group>"; };
-		FC6DEB3E197072E900B94DD0 /* eat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = eat.m4a; path = ../eat.m4a; sourceTree = "<group>"; };
-		FC6DEB40197072F700B94DD0 /* lickers.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = lickers.m4a; path = ../lickers.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,9 @@
 		2D3C310D19DF599A003FF769 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				FC6DEB40197072F700B94DD0 /* lickers.m4a */,
-				FC6DEB3E197072E900B94DD0 /* eat.m4a */,
-				FC6DEB3C197072E300B94DD0 /* wtf-internet.m4a */,
+				2D3C311019DF5A9E003FF769 /* eat.m4a */,
+				2D3C311119DF5A9E003FF769 /* lickers.m4a */,
+				2D3C311219DF5A9E003FF769 /* wtf-internet.m4a */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -107,8 +107,8 @@
 		2D3C310E19DF59C1003FF769 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FC57F59B19D5D08C00E2AB1E /* WTFMenubarController.h */,
-				FC57F59C19D5D08C00E2AB1E /* WTFMenubarController.m */,
+				2D3C311919DF5AB6003FF769 /* WTFMenubarController.h */,
+				2D3C311A19DF5AB6003FF769 /* WTFMenubarController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -116,8 +116,8 @@
 		2D3C310F19DF59DB003FF769 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
-				FC6DEB101970658D00B94DD0 /* WTFAppDelegate.h */,
-				FC6DEB111970658D00B94DD0 /* WTFAppDelegate.m */,
+				2D3C311619DF5AAE003FF769 /* WTFAppDelegate.h */,
+				2D3C311719DF5AAE003FF769 /* WTFAppDelegate.m */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -283,12 +283,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC6DEB3D197072E300B94DD0 /* wtf-internet.m4a in Resources */,
 				FC6DEB091970658D00B94DD0 /* InfoPlist.strings in Resources */,
+				2D3C311319DF5A9E003FF769 /* eat.m4a in Resources */,
+				2D3C311419DF5A9E003FF769 /* lickers.m4a in Resources */,
+				2D3C311519DF5A9E003FF769 /* wtf-internet.m4a in Resources */,
 				FC6DEB171970658D00B94DD0 /* Images.xcassets in Resources */,
-				FC6DEB3F197072E900B94DD0 /* eat.m4a in Resources */,
 				FC6DEB0F1970658D00B94DD0 /* Credits.rtf in Resources */,
-				FC6DEB41197072F700B94DD0 /* lickers.m4a in Resources */,
 				FC6DEB151970658D00B94DD0 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,8 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC57F59D19D5D08C00E2AB1E /* WTFMenubarController.m in Sources */,
-				FC6DEB121970658D00B94DD0 /* WTFAppDelegate.m in Sources */,
+				2D3C311B19DF5AB6003FF769 /* WTFMenubarController.m in Sources */,
+				2D3C311819DF5AAE003FF769 /* WTFAppDelegate.m in Sources */,
 				FC6DEB0B1970658D00B94DD0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
