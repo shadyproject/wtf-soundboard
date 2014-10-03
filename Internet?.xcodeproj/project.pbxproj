@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FC57F59D19D5D08C00E2AB1E /* WTFMenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F59C19D5D08C00E2AB1E /* WTFMenubarController.m */; };
-		FC57F5A019D5D13400E2AB1E /* WTFStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F59F19D5D13400E2AB1E /* WTFStatusItemView.m */; };
 		FC6DEAFF1970658D00B94DD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */; };
 		FC6DEB091970658D00B94DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB071970658D00B94DD0 /* InfoPlist.strings */; };
 		FC6DEB0B1970658D00B94DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DEB0A1970658D00B94DD0 /* main.m */; };
@@ -39,8 +38,6 @@
 /* Begin PBXFileReference section */
 		FC57F59B19D5D08C00E2AB1E /* WTFMenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTFMenubarController.h; sourceTree = "<group>"; };
 		FC57F59C19D5D08C00E2AB1E /* WTFMenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTFMenubarController.m; sourceTree = "<group>"; };
-		FC57F59E19D5D13400E2AB1E /* WTFStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTFStatusItemView.h; sourceTree = "<group>"; };
-		FC57F59F19D5D13400E2AB1E /* WTFStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTFStatusItemView.m; sourceTree = "<group>"; };
 		FC6DEAFB1970658D00B94DD0 /* Internet?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Internet?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FC6DEB011970658D00B94DD0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -140,8 +137,6 @@
 				FC6DEB051970658D00B94DD0 /* Supporting Files */,
 				FC57F59B19D5D08C00E2AB1E /* WTFMenubarController.h */,
 				FC57F59C19D5D08C00E2AB1E /* WTFMenubarController.m */,
-				FC57F59E19D5D13400E2AB1E /* WTFStatusItemView.h */,
-				FC57F59F19D5D13400E2AB1E /* WTFStatusItemView.m */,
 			);
 			path = "Internet?";
 			sourceTree = "<group>";
@@ -282,7 +277,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC57F59D19D5D08C00E2AB1E /* WTFMenubarController.m in Sources */,
-				FC57F5A019D5D13400E2AB1E /* WTFStatusItemView.m in Sources */,
 				FC6DEB121970658D00B94DD0 /* WTFAppDelegate.m in Sources */,
 				FC6DEB0B1970658D00B94DD0 /* main.m in Sources */,
 			);

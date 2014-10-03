@@ -7,11 +7,8 @@
 //
 
 #import "WTFMenubarController.h"
-#import "WTFStatusItemView.h"
 
 @interface WTFMenubarController ()
-@property (nonatomic, strong) WTFStatusItemView *statusItemView;
-
 @end
 
 @implementation WTFMenubarController
@@ -19,40 +16,47 @@
 -(id)init {
     self = [super init];
     if (self) {
-        NSStatusItem *statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:24.0];
-        
-        _statusItemView = [[WTFStatusItemView alloc] initWithStatusItem:statusItem];
-        _statusItemView.image = [NSImage imageNamed:@"AppIcon"];
-        _statusItemView.alternateImage = [NSImage imageNamed:@"AppIcon"];
-        _statusItemView.target = @selector(toggleMenu:);
-        
+        _statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:24.0];
+        _statusItem.image = [NSImage imageNamed:@"AppIcon"];
+        _statusItem.highlightMode = YES;
+
+        NSMenu *menu = [[NSMenu alloc] init];
+        [[menu addItemWithTitle:@"Internet?" action:@selector(playInternet) keyEquivalent:@""] setTarget:self];
+        [[menu addItemWithTitle:@"You are the ones" action:@selector(playYouAre) keyEquivalent:@""] setTarget:self];
+        [[menu addItemWithTitle:@"Eat" action:@selector(playEat) keyEquivalent:@""] setTarget:self];
+        [menu addItem:[NSMenuItem separatorItem]];
+        [[menu addItemWithTitle:@"Window" action:@selector(openWindow) keyEquivalent:@""] setTarget:self];
+        [[menu addItemWithTitle:@"Quit" action:@selector(quit) keyEquivalent:@""] setTarget:self];
+
+        _statusItem.menu = menu;
     }
     
     return self;
 }
 
+#pragma mark Menu Actions
+- (void)playInternet {
+    NSLog(@"Play the internet sound click here");
+}
+
+- (void)playYouAre {
+    NSLog(@"Play you are the ones who are the ball lickers");
+}
+
+- (void)playEat {
+    NSLog(@"Play the eat clip");
+}
+
+- (void)openWindow {
+    NSLog(@"Show the window with the buttons");
+}
+
+- (void)quit {
+    [[NSApplication sharedApplication] terminate:self];
+}
+
 - (void)dealloc {
     [[NSStatusBar systemStatusBar] removeStatusItem:self.statusItem];
-}
-
-#pragma mark -
-#pragma mark Public accessors
-
-- (NSStatusItem *)statusItem
-{
-    return self.statusItemView.statusItem;
-}
-
-#pragma mark -
-
-- (BOOL)hasActiveIcon
-{
-    return self.statusItemView.isHighlighted;
-}
-
-- (void)setHasActiveIcon:(BOOL)flag
-{
-    self.statusItemView.isHighlighted = flag;
 }
 
 @end

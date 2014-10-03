@@ -12,6 +12,5 @@
 
 @property (nonatomic) BOOL hasActiveIcon;
 @property (nonatomic, strong, readonly) NSStatusItem *statusItem;
-@property (nonatomic, strong, readonly) WTFStatusItemView *statusItemView;
 
 @end

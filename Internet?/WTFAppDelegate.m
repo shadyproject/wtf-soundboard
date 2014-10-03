@@ -8,6 +8,7 @@
 
 #import "WTFAppDelegate.h"
 #import <AVFoundation/AVFoundation.h>
+#import "WTFMenubarController.h"
 
 @interface WTFAppDelegate ()
 @property (nonatomic, strong) AVAudioPlayer *wtfPlayer;
@@ -18,6 +19,9 @@
 @implementation WTFAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    //install our icon into the menu bar
+    self.menubarController = [[WTFMenubarController alloc] init];
+
     NSString *path = [[NSBundle mainBundle] pathForResource:@"wtf-internet" ofType:@"m4a"];
     NSURL *url = [NSURL fileURLWithPath:path];
     self.wtfPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
@@ -29,6 +33,12 @@
     path = [[NSBundle mainBundle] pathForResource:@"eat" ofType:@"m4a"];
     url = [NSURL fileURLWithPath:path];
     self.eatPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+}
+
+- (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender {
+    //explicitly remove icon from the bar
+    self.menubarController = nil;
+    return NSTerminateNow;
 }
 
 - (IBAction)playClip:(id)sender {
@@ -47,10 +57,6 @@
     [sender setEnabled:NO];
     [self.eatPlayer play];
     [sender setEnabled:YES];
-}
-
-- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
-    return YES;
 }
 
 @end
