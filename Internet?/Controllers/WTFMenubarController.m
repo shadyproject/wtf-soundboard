@@ -7,8 +7,10 @@
 //
 
 #import "WTFMenubarController.h"
+#import "WTFSoundController.h"
 
 @interface WTFMenubarController ()
+@property (nonatomic, strong) WTFSoundController *soundController;
 @end
 
 @implementation WTFMenubarController
@@ -29,6 +31,8 @@
         [[menu addItemWithTitle:@"Quit" action:@selector(quit:) keyEquivalent:@""] setTarget:self];
 
         _statusItem.menu = menu;
+        
+        _soundController = [[WTFSoundController alloc] init];
     }
     
     return self;
@@ -36,15 +40,15 @@
 
 #pragma mark Menu Actions
 - (void)playInternet:(id)sender {
-    NSLog(@"Play the internet sound click here");
+    [self.soundController playWhat];
 }
 
 - (void)playYouAre:(id)sender {
-    NSLog(@"Play you are the ones who are the ball lickers");
+    [self.soundController playYou];
 }
 
 - (void)playEat:(id)sender {
-    NSLog(@"Play the eat clip");
+    [self.soundController playEat];
 }
 
 - (void)openWindow:(id)sender {
