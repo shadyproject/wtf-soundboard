@@ -27,7 +27,7 @@
         [[menu addItemWithTitle:@"You are the ones" action:@selector(playYouAre:) keyEquivalent:@""] setTarget:self];
         [[menu addItemWithTitle:@"Eat" action:@selector(playEat:) keyEquivalent:@""] setTarget:self];
         [menu addItem:[NSMenuItem separatorItem]];
-        [[menu addItemWithTitle:@"Window" action:@selector(openWindow:) keyEquivalent:@""] setTarget:self];
+        //[[menu addItemWithTitle:@"Window" action:@selector(openWindow:) keyEquivalent:@""] setTarget:self];
         [[menu addItemWithTitle:@"Quit" action:@selector(quit:) keyEquivalent:@""] setTarget:self];
 
         _statusItem.menu = menu;
