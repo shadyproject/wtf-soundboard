@@ -13,12 +13,12 @@
 		2D3C311819DF5AAE003FF769 /* WTFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C311719DF5AAE003FF769 /* WTFAppDelegate.m */; };
 		2D3C311B19DF5AB6003FF769 /* WTFMenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C311A19DF5AB6003FF769 /* WTFMenubarController.m */; };
 		2D3C311E19DF5B06003FF769 /* WTFSoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C311D19DF5B06003FF769 /* WTFSoundController.m */; };
+		2D3C312019DF75BD003FF769 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3C311F19DF75BD003FF769 /* Images.xcassets */; };
 		FC6DEAFF1970658D00B94DD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */; };
 		FC6DEB091970658D00B94DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB071970658D00B94DD0 /* InfoPlist.strings */; };
 		FC6DEB0B1970658D00B94DD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DEB0A1970658D00B94DD0 /* main.m */; };
 		FC6DEB0F1970658D00B94DD0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB0D1970658D00B94DD0 /* Credits.rtf */; };
 		FC6DEB151970658D00B94DD0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB131970658D00B94DD0 /* MainMenu.xib */; };
-		FC6DEB171970658D00B94DD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB161970658D00B94DD0 /* Images.xcassets */; };
 		FC6DEB1E1970658D00B94DD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEB1D1970658D00B94DD0 /* XCTest.framework */; };
 		FC6DEB1F1970658D00B94DD0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */; };
 		FC6DEB271970658D00B94DD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC6DEB251970658D00B94DD0 /* InfoPlist.strings */; };
@@ -46,6 +46,7 @@
 		2D3C311A19DF5AB6003FF769 /* WTFMenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTFMenubarController.m; sourceTree = "<group>"; };
 		2D3C311C19DF5B06003FF769 /* WTFSoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTFSoundController.h; sourceTree = "<group>"; };
 		2D3C311D19DF5B06003FF769 /* WTFSoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTFSoundController.m; sourceTree = "<group>"; };
+		2D3C311F19DF75BD003FF769 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC6DEAFB1970658D00B94DD0 /* Internet?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Internet?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6DEAFE1970658D00B94DD0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FC6DEB011970658D00B94DD0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -57,7 +58,6 @@
 		FC6DEB0C1970658D00B94DD0 /* Internet?-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Internet?-Prefix.pch"; sourceTree = "<group>"; };
 		FC6DEB0E1970658D00B94DD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FC6DEB141970658D00B94DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		FC6DEB161970658D00B94DD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC6DEB1C1970658D00B94DD0 /* Internet?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Internet?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6DEB1D1970658D00B94DD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FC6DEB241970658D00B94DD0 /* Internet?Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Internet?Tests-Info.plist"; sourceTree = "<group>"; };
@@ -130,6 +130,7 @@
 		FC6DEAF21970658D00B94DD0 = {
 			isa = PBXGroup;
 			children = (
+				2D3C311F19DF75BD003FF769 /* Images.xcassets */,
 				FC6DEB041970658D00B94DD0 /* Internet? */,
 				FC6DEB221970658D00B94DD0 /* Internet?Tests */,
 				FC6DEAFD1970658D00B94DD0 /* Frameworks */,
@@ -174,7 +175,6 @@
 				2D3C310F19DF59DB003FF769 /* Delegates */,
 				2D3C310E19DF59C1003FF769 /* Controllers */,
 				2D3C310C19DF5982003FF769 /* Nibs */,
-				FC6DEB161970658D00B94DD0 /* Images.xcassets */,
 				FC6DEB051970658D00B94DD0 /* Supporting Files */,
 			);
 			path = "Internet?";
@@ -290,9 +290,9 @@
 			files = (
 				FC6DEB091970658D00B94DD0 /* InfoPlist.strings in Resources */,
 				2D3C311319DF5A9E003FF769 /* eat.m4a in Resources */,
+				2D3C312019DF75BD003FF769 /* Images.xcassets in Resources */,
 				2D3C311419DF5A9E003FF769 /* lickers.m4a in Resources */,
 				2D3C311519DF5A9E003FF769 /* wtf-internet.m4a in Resources */,
-				FC6DEB171970658D00B94DD0 /* Images.xcassets in Resources */,
 				FC6DEB0F1970658D00B94DD0 /* Credits.rtf in Resources */,
 				FC6DEB151970658D00B94DD0 /* MainMenu.xib in Resources */,
 			);
