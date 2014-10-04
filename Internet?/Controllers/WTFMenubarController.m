@@ -19,7 +19,7 @@
     self = [super init];
     if (self) {
         _statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:24.0];
-        _statusItem.image = [NSImage imageNamed:@"AppIcon"];
+        _statusItem.image = [NSImage imageNamed:@"BarIcon"];
         _statusItem.highlightMode = YES;
 
         NSMenu *menu = [[NSMenu alloc] init];
