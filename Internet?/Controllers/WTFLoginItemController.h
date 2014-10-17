@@ -10,4 +10,8 @@
 
 @interface WTFLoginItemController : NSObject
 
+-(BOOL)appWillLaunchAtLogin;
+-(BOOL)itemWillLaunchAtLogin:(NSURL*)itemUrl;
+
+-(void)setLaunchAtLoginForUrl:(NSURL*)url andEnable:(BOOL)enabled;
 @end
