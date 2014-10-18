@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSString * const LaunchAtLoginKeyPath;
+
 @interface WTFLoginItemController : NSObject
 
--(BOOL)appWillLaunchAtLogin;
--(BOOL)itemWillLaunchAtLogin:(NSURL*)itemUrl;
+-(void)addAppToLoginItems;
+-(void)removeAppFromLoginItems;
 
--(void)setLaunchAtLoginForUrl:(NSURL*)url andEnable:(BOOL)enabled;
+-(BOOL)appExistsAsLoginItem;
+
 @end
